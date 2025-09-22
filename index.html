@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VRGlow Studio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRChat Quest Photo Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="app">
-    <h1>VRGlow Studio ✨</h1>
-    <p id="dailyGreeting"></p>
-    <input type="file" id="imageUpload" multiple accept="image/*">
-    <div id="previewContainer"></div>
-    <div id="filterSelector"></div>
-    <div id="downloadButtons"></div>
-    <div id="premiumSection"></div>
-  </div>
-  <script src="app.js"></script>
+    <div class="container">
+        <img src="assets/vrchat-logo.png" id="logo" alt="VRChat Logo">
+        <p id="greeting">Welcome! This site is made for VRChat users on Quest who don’t have a PC. Here, you can get tips and tools to capture PC-quality photos for social media.</p>
+        <div class="controls">
+            <select id="languageSelect"></select>
+            <button id="darkModeToggle">Dark Mode</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
